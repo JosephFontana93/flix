@@ -15,12 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="Ik9-CY-mbh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="Ik9-CY-mbh">
                                 <rect key="frame" x="118" y="264" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ik9-CY-mbh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C3N-gD-H5N"/>
+                            <constraint firstItem="Ik9-CY-mbh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="ace-hi-XFh"/>
+                            <constraint firstItem="Ik9-CY-mbh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pa9-YN-Ja3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
